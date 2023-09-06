@@ -1,0 +1,35 @@
+.rounded_text_input {
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 280px;
+  height: 22px;
+  padding-right: 30px;
+  background-color: #f0f0f0;
+  border: none;
+  padding-left: 35px;
+}
+.text_input {
+  display: flex;
+  align-items: center;
+}
+
+.input_container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+::placeholder {
+  color: #8696a5;
+  font-weight: 400;
+  font-size: 20px;
+  /* padding-left: 20px; */
+}

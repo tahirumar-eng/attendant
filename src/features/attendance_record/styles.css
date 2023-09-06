@@ -1,0 +1,31 @@
+.attendance_record_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 30px;
+  width: 700px;
+}
+.attendance_record_table {
+  width: 700px;
+}
+
+@media screen and (max-width: 767px) {
+  .m_modal {
+    margin: 26px;
+  }
+  .c_modal {
+    width: 230px;
+  }
+  .attendance_record_content {
+    width: 100%;
+  }
+  .attendance_record_table {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .m_modal {
+    width: unset;
+  }
+}

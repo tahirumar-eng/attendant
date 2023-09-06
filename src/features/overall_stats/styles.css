@@ -1,0 +1,48 @@
+.overall_stats_container {
+  margin: auto;
+  max-width: 1400px;
+  padding-bottom: 30px;
+}
+.stats_heading {
+  color: #06c5ad;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.overall_stats_table {
+  background-color: #06c5ad;
+  width: 100%;
+}
+.overall_stats_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  gap: 35px;
+}
+.expand_icon_container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  top: 25px;
+}
+.stats_search_input {
+  width: 420px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid #20dac2;
+}
+@media screen and (max-width: 767px) {
+  .stats_search_input {
+    width: auto;
+  }
+  .overall_stats_container {
+    padding: 0 15px;
+  }
+  .overall_stats_table {
+    overflow-x: auto;
+  }
+}

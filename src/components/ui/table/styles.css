@@ -1,0 +1,21 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+}
+td {
+  padding: 16px;
+}
+
+th {
+  background-color: #20dac2;
+  color: white;
+  text-transform: capitalize;
+  height: 40px;
+}

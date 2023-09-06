@@ -1,0 +1,45 @@
+.password_change_container {
+  background: #b3ece5;
+  height: 100vh;
+}
+.heading {
+  color: #2fbb97;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  margin: auto;
+  margin-top: 220px;
+  width: 100%;
+  text-align: center;
+}
+.modal_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+.text_fields {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.error_message {
+  color: #856e78;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 575) {
+  .heading {
+    margin-top: 180px;
+  }
+}

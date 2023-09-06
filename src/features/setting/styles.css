@@ -1,0 +1,67 @@
+.setting_container {
+  margin: auto;
+  max-width: 1400px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+.setting_heading {
+  color: #06c5ad;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.setting_table {
+  background-color: #06c5ad;
+  width: 100%;
+}
+.setting_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.setting_action {
+  /* border: 1px solid; */
+  display: flex;
+  gap: 12px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text_fields {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.button_group {
+  display: flex;
+  gap: 20px;
+}
+.add_btn {
+  width: 100%;
+  margin-bottom: -20px;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+.search_input {
+  width: 420px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid #20dac2;
+}
+
+@media screen and (max-width: 767px) {
+  .search_input {
+    width: auto;
+  }
+  .setting_container {
+    padding: 0 15px;
+  }
+  .setting_table {
+    overflow-x: auto;
+  }
+}

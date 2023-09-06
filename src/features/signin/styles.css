@@ -1,0 +1,36 @@
+.auth_container {
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: 300;
+}
+.auth_heading {
+  color: #2fbb97;
+  font-size: 30px;
+  font-weight: 400;
+}
+.link {
+  color: #4dcbae;
+  font-weight: 600;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.auth_social_platforms {
+  margin: -15px;
+  padding: 8px;
+}
+.social_platform_icon {
+  border: 1px solid;
+  margin: 4px;
+  padding: 5px;
+  border-radius: 20px;
+}

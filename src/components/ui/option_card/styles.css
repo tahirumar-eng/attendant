@@ -1,0 +1,14 @@
+.option_card_container {
+  width: 240px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #20dac2;
+  border-radius: 8px;
+}
+.option_card_title {
+  color: #e5ffff;
+  font-weight: 400;
+  text-transform: uppercase;
+}
